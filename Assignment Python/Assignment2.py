@@ -1,5 +1,5 @@
 #Qno1:Print the First and Last Character of a String. 
-a='Pakistan'
+a='Hellow World'
 # print('First: ',a[0], ' Last: ',a[len(a)-1])
 
 #Qno2: Extract and Print the Second and Second-Last Character.  
@@ -27,8 +27,16 @@ a='Pakistan'
 #     print(a[len(a)-1-i],end=' ')
 
 #Qno8: Replace a Character at a Specific Index with a New Character.
-# a.replace('Pak')  
-# print(a)
+char='m'
+index=8
+if index>=0 and index < len(a):
+    b=a[:index]+ char+ a[index+1:]
+    print('Old String: ',a)
+    print('New String: ',b)
+else: 
+    print(index,' is out of bound')
+  
+
 
 # Qno9:  Extract Only Even-Indexed Characters from a String.  
 # print(a[0::2])
