@@ -35,8 +35,6 @@ a='Hellow World'
 #     print('New String: ',b)
 # else: 
 #     print(index,' is out of bound')
-  
-
 
 # Qno9:  Extract Only Even-Indexed Characters from a String.  
 # print(a[0::2])
