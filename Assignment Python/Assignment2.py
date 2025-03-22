@@ -17,15 +17,18 @@ a='Pakistan'
 
 #Qno6: Check if a Character Exists at a Specific Index.
 # index=int(input("Enter indext to check specific character: "))
-# print(a[index])
+# if index>=0 and index < len(a):
+#     print(a[index])
+# else: 
+#     print(index,' is out of bound')
 
 #Qno7:Print a String in Reverse Order Using a Loop.
 # for i in range(len(a)):
 #     print(a[len(a)-1-i],end=' ')
 
 #Qno8: Replace a Character at a Specific Index with a New Character.
-a.replace('Pak')  
-print(a)
+# a.replace('Pak')  
+# print(a)
 
 # Qno9:  Extract Only Even-Indexed Characters from a String.  
 # print(a[0::2])
